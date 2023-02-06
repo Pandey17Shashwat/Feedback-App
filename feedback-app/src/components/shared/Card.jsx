@@ -11,7 +11,7 @@ function Card({children,reverse}) {
         backgroundColor : reverse ? 'rgba(0,0,0,0,4)' : '#fff',
         color : reverse ? '#fff' : '#000',
     }}>
-
+     {children}
     </div>
 }
 
